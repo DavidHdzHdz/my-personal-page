@@ -3,11 +3,25 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #f7f7f7 !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.principal-container {
+  padding: 1% 10% 2% 10%;
+}
+
+/**
+ * Resume Styles
+ */
+.resume-container {
+  padding: 1%;
+  background-color: #f7f7f7;
+}
+
+.ui.items>.item>.image>img {
+  border: 3px solid #d0dadc !important;
+}
+
+.ui.cv-progres-color.progress .bar {
+  background-color: #5bcf80;
 }
