@@ -1,6 +1,8 @@
 import React from 'react';
 // import PropTypes from 'prop-types'
-import { Item, Label, Divider, Header, Icon } from 'semantic-ui-react';
+import { Item, Divider, Header, Icon } from 'semantic-ui-react';
+
+const headerItemStyle = { color: '#333', marginBottom: '5px', fontWeight: '400' }
 
 const ResumeWorkHistory = () => {
   return (
@@ -11,69 +13,69 @@ const ResumeWorkHistory = () => {
           Work History
         </Header>
       </Divider>
-      <Item>
-        <Item.Image src='/images/bbva-logo.jpeg' avatar size='tiny' />
+      {/*** Item ***/}
+      <Item style={{ marginBottom: '0px' }}>
+        <Item.Image src='/images/bbva-logo.jpeg' avatar size='cv-history-item' />
         <Item.Content>
-          <Item.Header as='a'>12 Years a Slave</Item.Header>
           <Item.Meta>
-            <span className='cinema'>Union Square 14</span>
+            <Item.Header as='h3' style={headerItemStyle}>
+              BBVA - Software Engineer
+            </Item.Header>
+            <span>Apr 2016 - Currently</span>
           </Item.Meta>
-          <Item.Description>
-            rferfreferferferfrefrefeferfefre
-          </Item.Description>
-          <Item.Extra>
-            <Label>IMAX</Label>
-            <Label icon='globe' content='Additional Languages' />
-          </Item.Extra>
         </Item.Content>
       </Item>
-      <Item>
-        <Item.Image src='/images/bbva-logo.jpeg' avatar size='tiny' />
+      <Item style={{ marginTop: '12px', paddingLeft: '15px' }}>
+          I've involved in many project related to banking such as invesments dashboards,
+          transfers, payments,
+      </Item>
+      {/*** Item ***/}
+      <Item style={{ marginBottom: '0px' }}>
+        <Item.Image src='/images/bbva-logo.jpeg' avatar size='cv-history-item' />
         <Item.Content>
-          <Item.Header as='a'>12 Years a Slave</Item.Header>
           <Item.Meta>
-            <span className='cinema'>Union Square 14</span>
+            <Item.Header as='h3' style={headerItemStyle}>
+              Softtek - Software Engineer
+            </Item.Header>
+            <span>Apr 2016 - Currently</span>
           </Item.Meta>
-          <Item.Description>
-            rferfreferferferfrefrefeferfefre
-          </Item.Description>
-          <Item.Extra>
-            <Label>IMAX</Label>
-            <Label icon='globe' content='Additional Languages' />
-          </Item.Extra>
         </Item.Content>
       </Item>
-      <Item>
-        <Item.Image src='/images/bbva-logo.jpeg' avatar size='tiny' />
+      <Item style={{ marginTop: '12px', paddingLeft: '15px' }}>
+          I've involved in many project related to banking such as trtrtr datrt, trttrt
+          transfers, payments, rtrtrt
+      </Item>
+      {/*** Item ***/}
+      <Item style={{ marginBottom: '0px' }}>
+        <Item.Image src='/images/bbva-logo.jpeg' avatar size='cv-history-item' />
         <Item.Content>
-          <Item.Header as='a'>12 Years a Slave</Item.Header>
           <Item.Meta>
-            <span className='cinema'>Union Square 14</span>
+            <Item.Header as='h3' style={headerItemStyle}>
+              On Target - Web Developer
+            </Item.Header>
+            <span>Apr 2016 - Currently</span>
           </Item.Meta>
-          <Item.Description>
-            rferfreferferferfrefrefeferfefre
-          </Item.Description>
-          <Item.Extra>
-            <Label>IMAX</Label>
-            <Label icon='globe' content='Additional Languages' />
-          </Item.Extra>
         </Item.Content>
       </Item>
-      <Item>
-        <Item.Image src='/images/bbva-logo.jpeg' avatar size='tiny' />
+      <Item style={{ marginTop: '12px', paddingLeft: '15px' }}>
+          I've involved in many project related to banking such as invesments dashboards,
+          transfers, payments,
+      </Item>
+      {/*** Item ***/}
+      <Item style={{ marginBottom: '0px' }}>
+        <Item.Image src='/images/bbva-logo.jpeg' avatar size='cv-history-item' />
         <Item.Content>
-          <Item.Header as='a'>12 Years a Slave</Item.Header>
           <Item.Meta>
-            <span className='cinema'>Union Square 14</span>
+            <Item.Header as='h3' style={headerItemStyle}>
+              COBREC - IT assistant
+            </Item.Header>
+            <span>Apr 2016 - Currently</span>
           </Item.Meta>
-          <Item.Description>
-            rferfreferferferfrefrefeferfefre
-          </Item.Description>
-          <Item.Extra>
-            <Label>IMAX</Label>
-            <Label icon='globe' content='Additional Languages' />
-          </Item.Extra>
         </Item.Content>
+      </Item>
+      <Item style={{ marginTop: '12px', paddingLeft: '15px' }}>
+          I've involved in many project related to banking such as invesments dashboards,
+          transfers, payments,
       </Item>
     </Item.Group>
   )

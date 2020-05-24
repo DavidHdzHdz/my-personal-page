@@ -12,22 +12,28 @@ const ResumeSkills = () => {
       </Divider>
       <Grid stackable columns={3}>
         <Grid.Column>
-          Skill 1 <Progress percent={65} color='cv-progres-color' size='tiny'/>
+          Frontend
+          <Progress percent={90} color='cv-progres-color' size='tiny'/>
         </Grid.Column>
         <Grid.Column>
-          Skill 2 <Progress percent={80} color='cv-progres-color' size='tiny'/>
+          Backend
+          <Progress percent={60} color='cv-progres-color' size='tiny'/>
         </Grid.Column>
         <Grid.Column>
-          Skill 2 <Progress percent={90} color='cv-progres-color' size='tiny'/>
+          Problem Solving
+          <Progress percent={80} color='cv-progres-color' size='tiny'/>
         </Grid.Column>
         <Grid.Column>
-          Skill 4 <Progress percent={60} color='cv-progres-color' size='tiny'/>
+          Software Architecture
+          <Progress percent={75} color='cv-progres-color' size='tiny'/>
         </Grid.Column>
         <Grid.Column>
-          Skill 5 <Progress percent={50} color='cv-progres-color' size='tiny'/>
+          Soft skills
+          <Progress percent={75} color='cv-progres-color' size='tiny'/>
         </Grid.Column>
         <Grid.Column>
-          Skill 6 <Progress percent={100} color='cv-progres-color' size='tiny'/>
+          Creativity
+          <Progress percent={100} color='cv-progres-color' size='tiny'/>
         </Grid.Column>
       </Grid>
     </Fragment>

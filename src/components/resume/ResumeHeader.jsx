@@ -7,20 +7,22 @@ const ResumeHeader = () => {
     <Segment raised>
       <Item.Group>
         <Item style={{ marginBottom: '0px', padding: '0% 3%' }}>
-          <Item.Image  src='/images/cv-avatar-image.png' size='tiny' className='.cv-image' />
+          <Item.Image  src='/images/cv-avatar-image.png' size='cv-photo' />
           <Item.Content>
             <Item.Extra>
-              <Header as='h2'>David Hernandez Hernandez</Header>
+              <Header as='h3' style={{ color: '#333' }}>David Hernandez Hernandez</Header>
               <Item.Meta>
-                <Label style={{background: '#FAF46A'}}>Web Developer | JS expert</Label>
+                <Label style={{background: '#FAF46A', fontStyle: 'italic'}}>
+                  Web Developer - JS<span style={{ color: '#FAF46A' }}>_</span>specialist
+                </Label>
               </Item.Meta>
             </Item.Extra>
           </Item.Content>
           <Item.Content>
             <Item.Extra>
               <List horizontal >
-                <List.Item><Label size='tiny' icon='mail' content='davidhhw24@gmail.com' /></List.Item>
-                <List.Item><Label size='tiny' icon='phone' content='5571222205' /></List.Item>
+                <List.Item><Label size='small' icon='mail' content='davidhhw24@gmail.com' /></List.Item>
+                <List.Item><Label size='small' icon='phone' content='5571222205' /></List.Item>
               </List>
               <div/>
               <List horizontal>
@@ -31,7 +33,7 @@ const ResumeHeader = () => {
                     target='_blank'
                     circular color='linkedin'
                     icon='linkedin'
-                    size='tiny'
+                    size='small'
                   />
                 </List.Item>
                 <List.Item>
@@ -42,7 +44,7 @@ const ResumeHeader = () => {
                     circular
                     color='black'
                     icon='github'
-                    size='tiny'
+                    size='small'
                   />
                 </List.Item>
                 <List.Item>
@@ -53,7 +55,7 @@ const ResumeHeader = () => {
                     circular
                     color='red'
                     icon='map marker alternate'
-                    size='tiny'
+                    size='small'
                   />
                 </List.Item>
               </List>
@@ -62,7 +64,7 @@ const ResumeHeader = () => {
         </Item>
         <Item style={{ marginTop: '0px', padding: '0% 3%' }}>
           <Item.Content>
-            <Item.Description style={{ marginTop: '0px' }}>
+            <Item.Description style={{ marginTop: '0px', color: '#345' }}>
               <Divider horizontal>
                 <Header size='tiny' color='grey'>
                   <Icon name='pencil alternate' color='grey' />
@@ -73,8 +75,8 @@ const ResumeHeader = () => {
               I am focused on how things should be built
               by analyzing the best patterns and tools to solve a problem,
               lover of quality and performance,
-              I am Javascript expert and proficient
-              with technologies such as React, Redux, WebComponents, NodeJS,
+              I am Javascript specialist proficient
+              in technologies such as React, Redux, WebComponents, NodeJS,
               MongoDB, CSS, HTML, CSS frameworks {'&'} precompilers among others,
               I  am positive, motivated, self-taught, passionate,
               creative and with a huge willingness to improve and build amazing things.

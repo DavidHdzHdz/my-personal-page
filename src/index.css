@@ -1,27 +1,52 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Lato', sans-serif;
   background-color: #f7f7f7 !important;
 }
 
 .principal-container {
-  padding: 1% 10% 2% 10%;
+  padding: 1% 15% 2% 15%;
 }
 
 /**
  * Resume Styles
  */
 .resume-container {
+  font-family: 'Lato', sans-serif;
+  color: #345;;
   padding: 1%;
   background-color: #f7f7f7;
+}
+
+/* new images types */
+.ui.cv-photo.image {
+  width: 100px;
+}
+
+.ui.avatar.cv-history-item.image {
+  width: 60px !important;
 }
 
 .ui.items>.item>.image>img {
   border: 3px solid #d0dadc !important;
 }
 
+/* new progres types*/
 .ui.cv-progres-color.progress .bar {
   background-color: #5bcf80;
+}
+
+/*
+ * Mobile Slyles
+ */
+ @media only screen and (max-width: 600px) {
+  .principal-container {
+    padding: 1% 5% 2% 5%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .ui.items:not(.unstackable)>.item>.image {
+    display: table !important;
+  }
 }
