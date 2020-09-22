@@ -10,9 +10,9 @@ const Resume = () => {
   return (
     <Fragment>
       <ResumeHeader />
-      <Grid style={{marginTop: '10px'}} stackable columns={2} divided>
+      <Grid style={{marginTop: '10px'}} stackable columns={1} >
         <Grid.Column>
-          <ResumeWorkHistory />
+            <ResumeWorkHistory />
         </Grid.Column>
         <Grid.Column>
           <ResumeEducationHistory />

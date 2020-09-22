@@ -6,18 +6,18 @@ const ResumeSkills = () => {
   return (
     <Fragment>
       <Divider horizontal style={{paddingTop: '10px'}}>
-          <Header size='tiny' color='grey'>
-            Skills
-          </Header>
+        <Header size='tiny' color='grey'>
+          Skills
+        </Header>
       </Divider>
-      <Grid stackable columns={3}>
+      <Grid stackable columns={3} style={{ padding: '35px 40px 75px 40px' }}>
         <Grid.Column>
           Frontend
           <Progress percent={90} color='cv-progres-color' size='tiny'/>
         </Grid.Column>
         <Grid.Column>
           Backend
-          <Progress percent={60} color='cv-progres-color' size='tiny'/>
+          <Progress percent={50} color='cv-progres-color' size='tiny'/>
         </Grid.Column>
         <Grid.Column>
           Problem Solving
@@ -34,6 +34,18 @@ const ResumeSkills = () => {
         <Grid.Column>
           Creativity
           <Progress percent={100} color='cv-progres-color' size='tiny'/>
+        </Grid.Column>
+        <Grid.Column>
+          Team Working
+          <Progress percent={80} color='cv-progres-color' size='tiny'/>
+        </Grid.Column>
+        <Grid.Column>
+          LeaderShip
+          <Progress percent={70} color='cv-progres-color' size='tiny'/>
+        </Grid.Column>
+        <Grid.Column>
+          Self-taught learning
+          <Progress percent={85} color='cv-progres-color' size='tiny'/>
         </Grid.Column>
       </Grid>
     </Fragment>
